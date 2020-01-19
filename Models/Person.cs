@@ -10,5 +10,7 @@ namespace CS_EFCORE.Models
         public string PersonName { get; set; }
         public int Age { get; set; }
         public string Gender { get; set; }
+
+        private string Email { get; set; }
     }
 }
